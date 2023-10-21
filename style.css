@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2rem 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: auto;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color:#337ab7;
+    background-color: transparent;
+}
+
+.about{
+    color: aquamarine;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff ;
+}
+img{
+    width: 35px;
+    height: 30px;
+    vertical-align: middle;
+    border: 0;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+section{
+    justify-content:center;
+    display:block;
+}
+.logo{
+    margin-top: 55px;
+    width: 40px;
+    aspect-ratio: auto 40/40;
+    height: 40px;
+}
+
+header img{
+    width: 268px;
+    height: 33px;
+}
+#About, #career:hover, #Departments:hover {
+    color: #00b39b;
+    text-decoration: none;
+}
+.nav{
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    gap: 1.5rem;
+}
+#career, #Departments {
+    color: #ababab;
+    text-decoration: none;
+}
+.lead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+}
+html{
+    font-family: sans-serif;
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+}
+#headlogo{
+    width: 4opx;
+    aspect-ratio: auto 40/40;
+    height: 40px;
+}
+#headp{
+    color: #00b39b;
+    font-size: 3.29rem;
+    font-family: Work sans, arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+}
+p{
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+:after, :before{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pa2{
+    color: #747474;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+    justify-content:space-between;
+}
+div{
+    display: block;
+}
+.p1{
+    padding-right: 30px;
+}
+.main1{
+    height: 300px;
+    width: 300px;
+    background-color: #56d4c4;
+    border: solid 1px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.f1 #ftittle, .f2 #f2tittle, .f3 #f3tittle{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+    font-family: Work Sans, Arial, sans-serif;
+}
+section{
+    display: block;
+}
+.sec3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#sec3tittle {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+#sec3logo{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+#sec3logo img{
+    width: 7.5rem;
+    object-fit: contain;
+}
+.sec3 div {
+    width: 60%;
+    display: flex;
+}
+.forsec{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;;
+    padding: 1.375em-1.25em-0;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75rem auto 2.5rem;
+    color: #fff;
+    font-family: sans,arial,sans-serif;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+}
+button, select{
+    text-transform: none;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    letter-spacing: normal;
+    word-spacing:normal ;
+    text-indent: 0ppx;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    align-items: center;
+    white-space-collapse: preserve;
+    text-wrap: nowrap;
+    -webkit-rtl-ordering: logical;
+}
+.f1 select {
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+}
+.f2 select {
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+}
+.f3 select {
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+.f1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+.f2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+.f3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+.sec3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#sec3title {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+#sec3logos {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.h2, h2 {
+    font-size: 30px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.sec3 div {
+    width: 60%;
+    display: flex;
+}
+.sec4header {
+    font-family: Work Sans, Arial, sans-serif;
+    padding-top: 60px;
+}
+.sec4header h2 {
+    color: yellow;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+}
+.backgrounglogo{
+    height: 451px;
+    width: 330px;
+}
+.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-left: 50px;
+}
+.sec4fourpart {
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+#leader, #patients, #appointments, #doctors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+.sec4header p {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+}
+#leader img, #patients img, #appointments img, #doctors img {
+    width: 25px;
+    height: auto;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.h3, h3 {
+    font-size: 24px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sec4fourpart h3 {
+    font-size: 1.8461538462em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#leader{
+    margin-bottom: 20px;
+}
+.first2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.sec4header h2 {
+    color:#00b39b;
+    font-weight:300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.sec4fourpart p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+#appointments {
+    margin-bottom: 20px;
+}
+.second2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.sec4fourpart div {
+    height: 500px;
+    width: 250px;
+}
+#sec3logo img{
+    width: 7.5rem;
+    object-fit: contain;
+}
+.sec5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+.sec5 h3 {
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+}
+.sec5 p {
+    margin: 1.6em 0;
+    line-height: 1.7142857143;
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+.sec6 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5cm;
+    justify-content: center;
+}
+.sec6 div {
+    border-radius: 3%;
+    margin: 0.44%;
+}
+.country {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+div .buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.sec6 button {
+    margin-top: 0.5cm;
+    display: flex;
+    gap: 2cm;
+    justify-content: center;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: Roboto, Arial, sans-serif;
+    margin-right: 20px;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+button {
+    appearance: auto;
+    font-style:inherit ;
+    font-variant-ligatures: inherit;
+    font-variant-caps:inherit ;
+    font-variant-numeric: inherit;
+    font-variant-east-asian:inherit ;
+    font-variant-alternates:inherit ;
+    font-variant-position: inherit;
+    font-weight: inherit;
+    font-stretch:inherit ;
+    font-size:inherit ;
+    font-family:inherit ;
+    font-optical-sizing:inherit ;
+    font-kerning:inherit ;
+    font-feature-settings:inherit ;
+    font-variation-settings:inherit ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    writing-mode: horizontal-tb !important;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+b, strong {
+    font-weight: 700;
+}
+b{
+    font-weight: bold;
+}
